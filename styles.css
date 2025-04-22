@@ -41,16 +41,23 @@ body,
     border-radius: 10px;
     border: solid blue 2px;
     width: 200px;
+    justify-content: center;
+
+}
+
+.image-subtext p {
+    width: auto;
+    text-align: center;
 }
 
 .links {
     gap: 15px;
     margin-top: 20px;
 }
+
 body {
     margin: 0px;
 }
-
 
 .top,
 .footer {
@@ -59,15 +66,16 @@ body {
 
 .placeholder {
     text-align: center;
-    color: #f9faf8;
+    color: #1F2937;
     width: 500px;
     height: 200px;
     background-color: gray;
     margin-bottom: 65px;
 }
 
-.placeholder p {
-    margin: 90px 0 0 0;
+.placeholder img {
+    height:100%;
+    width: 100%;
 }
 
 .links a{
